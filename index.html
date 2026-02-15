@@ -1,230 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Lumina Candles - Handcrafted Scented Candles</title>
-<meta name="description" content="Discover handcrafted scented candles made with premium soy wax. Perfect for gifting, home décor, and relaxation. Shop Lumina Candles today.">
-<meta name="keywords" content="scented candles, soy candles, handmade candles, luxury candles, home decor candles">
-
-<link rel="icon" href="logo-placeholder.png">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
-<style>
-body { font-family: 'Poppins', sans-serif; background-color: #fdf8f3; color: #333; }
-
-.hero {
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-url('hero-candle-placeholder.jpg');
-background-size: cover;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-color: white;
-}
-
-.cta-btn {
-background-color: #b08968;
-border: none;
-padding: 10px 20px;
-margin: 10px;
-border-radius: 5px;
-color: white;
-}
-
-.section { padding: 60px 0; }
-
-.product-item {
-border: 1px solid #eee;
-padding: 20px;
-margin-bottom: 20px;
-border-radius: 10px;
-background-color: white;
-}
-
-.gallery img {
-width: 100%;
-height: 250px;
-object-fit: cover;
-border-radius: 10px;
-}
-
-footer {
-background-color: #3e2c23;
-color: white;
-padding: 20px 0;
-}
-
-@media (max-width: 768px) {
-.hero { height: 70vh; }
-}
-</style>
-
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "Store",
-"name": "Lumina Candles",
-"description": "Handcrafted scented candles made with premium soy wax.",
-"address": {
-"@type": "PostalAddress",
-"streetAddress": "123 Market Street",
-"addressLocality": "Your City",
-"addressRegion": "State",
-"postalCode": "000000",
-"addressCountry": "IN"
-},
-"telephone": "+91-XXXXXXXXXX"
-}
-</script>
+    <meta charset="UTF-8">
+    <title>Ruvya Candles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
-<div class="container">
-<a class="navbar-brand" href="#">
-<img src="logo-placeholder.png" alt="Lumina Candles Logo" height="40">
-</a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-<span class="navbar-toggler-icon"></span>
-</button>
+<header class="hero">
+    <h1>Ruvya Candles</h1>
+    <p>Handcrafted Luxury Scented Candles</p>
+</header>
 
-<div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
-
-<section id="home" class="hero">
-<div class="container">
-<h1>Handcrafted Luxury Candles</h1>
-<p>Experience warmth, elegance, and soothing fragrances in every candle.</p>
-<a href="#products" class="btn cta-btn">View Collection</a>
-<a href="#contact" class="btn cta-btn">Order Now</a>
-</div>
+<section class="about">
+    <h2>Our Story</h2>
+    <p>Ruvya Candles creates handcrafted luxury candles designed to elevate your space with warmth, elegance, and calming fragrances.</p>
 </section>
 
-<section id="about" class="section bg-light">
-<div class="container">
-<h2>About Us</h2>
-<p>We create premium handcrafted candles using high-quality soy wax and carefully curated fragrances. Our candles are designed to elevate your space, create relaxing moments, and make perfect gifts for every occasion.</p>
-</div>
+<section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="images/candle1.jpg" alt="Lavender Bliss">
+            <h3>Lavender Bliss</h3>
+            <p>Soothing lavender fragrance perfect for relaxation.</p>
+            <span>₹599</span>
+        </div>
+
+        <div class="product-card">
+            <img src="images/candle2.jpg" alt="Vanilla Glow">
+            <h3>Vanilla Glow</h3>
+            <p>Warm vanilla scent to create cozy vibes.</p>
+            <span>₹649</span>
+        </div>
+
+        <div class="product-card">
+            <img src="images/candle3.jpg" alt="Rose Serenity">
+            <h3>Rose Serenity</h3>
+            <p>Elegant floral aroma for peaceful evenings.</p>
+            <span>₹699</span>
+        </div>
+
+    </div>
 </section>
 
-<section id="products" class="section">
-<div class="container">
-<h2>Our Collection</h2>
-<div class="row">
-
-<div class="col-md-6">
-<div class="product-item">
-<h4>Lavender Bliss</h4>
-<p>Calming lavender fragrance for relaxation and stress relief.</p>
-<p><strong>₹499</strong></p>
-</div>
-
-<div class="product-item">
-<h4>Vanilla Dream</h4>
-<p>Warm and sweet vanilla aroma perfect for cozy evenings.</p>
-<p><strong>₹449</strong></p>
-</div>
-</div>
-
-<div class="col-md-6">
-<div class="product-item">
-<h4>Rose Elegance</h4>
-<p>Floral rose scent crafted for romantic and elegant settings.</p>
-<p><strong>₹549</strong></p>
-</div>
-
-<div class="product-item">
-<h4>Citrus Fresh</h4>
-<p>Refreshing citrus blend that energizes your space.</p>
-<p><strong>₹399</strong></p>
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<section id="gallery" class="section bg-light">
-<div class="container">
-<h2>Gallery</h2>
-<div class="row">
-<div class="col-md-4"><img src="candle1-placeholder.jpg" alt="Scented Candle"></div>
-<div class="col-md-4"><img src="candle2-placeholder.jpg" alt="Luxury Candle Setup"></div>
-<div class="col-md-4"><img src="candle3-placeholder.jpg" alt="Gift Candle Box"></div>
-</div>
-</div>
-</section>
-
-<section id="contact" class="section">
-<div class="container">
-<h2>Contact Us</h2>
-<div class="row">
-
-<div class="col-md-6">
-<form id="contactForm">
-<div class="mb-3">
-<label class="form-label">Name</label>
-<input type="text" class="form-control" required>
-</div>
-
-<div class="mb-3">
-<label class="form-label">Phone</label>
-<input type="tel" class="form-control" required>
-</div>
-
-<div class="mb-3">
-<label class="form-label">Message</label>
-<textarea class="form-control" rows="3" required></textarea>
-</div>
-
-<button type="submit" class="btn cta-btn">Send Message</button>
-</form>
-</div>
-
-<div class="col-md-6">
-<p><a href="tel:+91-XXXXXXXXXX">Call Us: +91-XXXXXXXXXX</a></p>
-<p>Business Hours: Mon-Sun 10:00 AM - 8:00 PM</p>
-<p>Follow Us: 
-<a href="#">Instagram</a> | 
-<a href="#">Facebook</a>
-</p>
-</div>
-
-</div>
-</div>
+<section class="contact">
+    <h2>Place Your Order</h2>
+    <p>For orders and inquiries, contact us via WhatsApp or Instagram.</p>
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order Now</a>
 </section>
 
 <footer>
-<div class="container text-center">
-<p>&copy; 2026 Lumina Candles. All rights reserved.</p>
-</div>
+    <p>© 2026 Ruvya Candles. All Rights Reserved.</p>
 </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-e.preventDefault();
-alert('Thank you for contacting us! We will get back to you shortly.');
-});
-</script>
 
 </body>
 </html>
-
